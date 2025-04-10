@@ -1,0 +1,91 @@
+python:
+  - '**/*.py'
+
+docs:
+  - '**/*.md'
+
+workflow:
+  - '.github/workflows/**'
+
+csharp:
+  - '**/*.cs'
+
+c:
+  - '**/*.c'
+  - '**/*.h'
+
+cpp:
+  - '**/*.cpp'
+  - '**/*.hpp'
+  - '**/*.cc'
+  - '**/*.hh'
+  - '**/*.cxx'
+  - '**/*.hxx'
+
+java:
+  - '**/*.java'
+
+docker:
+  - 'Dockerfile'
+  - '**/Dockerfile'
+
+docker-ignore:
+  - '.dockerignore'
+  - '**/.dockerignore'
+
+gitignore:
+  - '.gitignore'
+  - '**/.gitignore'
+
+github-config:
+  - '.github/**'
+  - '!**/.github/workflows/**'  # Exclude workflows from this label
+
+txt:
+  - '**/*.txt'
+
+html:
+  - '**/*.html'
+  - '**/*.htm'
+
+css:
+  - '**/*.css'
+
+scss:
+  - '**/*.scss'
+  - '**/*.sass'
+
+javascript:
+  - '**/*.js'
+
+typescript:
+  - '**/*.ts'
+  - '**/*.tsx'
+  - '**/*.d.ts'
+
+json:
+  - '**/*.json'
+
+yaml:
+  - '**/*.yaml'
+  - '**/*.yml'
+
+xml:
+  - '**/*.xml'
+
+react:
+  - '**/*.jsx'
+  - '**/*.tsx'
+
+vue:
+  - '**/*.vue'
+
+node:
+  - 'package.json'
+  - 'package-lock.json'
+  - 'yarn.lock
+
+tests:
+  - '**/*test.*'
+  - '**/tests/**'
+  - '**/__tests__/**'
